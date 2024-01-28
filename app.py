@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import plotly.express as px
 import base64
-
+nltk.download('vader_lexicon')
 def analyze_sentiment(text):
     sid = SentimentIntensityAnalyzer()
     sentiment_score = sid.polarity_scores(text)['compound']
