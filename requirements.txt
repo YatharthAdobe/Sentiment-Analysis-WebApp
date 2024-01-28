@@ -92,4 +92,4 @@ Werkzeug==3.0.1
 wordcloud==1.9.3
 wrapt==1.14.1
 zipp==3.17.0
-tensorflow-macos==2.7.0
+
