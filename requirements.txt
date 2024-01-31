@@ -94,3 +94,4 @@ Werkzeug==3.0.1
 wordcloud==1.9.3
 wrapt==1.14.1
 zipp==3.17.0
+streamlit-option-menu==0.3.12
