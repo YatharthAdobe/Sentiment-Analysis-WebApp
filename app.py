@@ -12,6 +12,7 @@ import base64
 # Download stopwords dataset
 import nltk
 nltk.download('stopwords')
+nltk.download('vader_lexicon')
 
 def analyze_sentiment(text):
     sid = SentimentIntensityAnalyzer()
